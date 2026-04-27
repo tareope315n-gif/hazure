@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.hazure-link {
+    font-size: 24px;
+    color: #333333;
+    text-decoration: none; /* 下線を消す */
+}
+
+/* マウスを乗せた時の変化（任意） */
+.hazure-link:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
